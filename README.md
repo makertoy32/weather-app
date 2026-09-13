@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # React Vite Tailwind Starter
 
@@ -159,3 +160,7 @@ Runs ESLint.
 
 This project is open source and available under the MIT License.
 >>>>>>> 8fd0d300c9ccc286630dc86dbfcc8880fea1b361
+=======
+# weather-app
+A React + Tailwind Weather App  
+>>>>>>> fb5bf7f565ee55817169e036e9740210946e97fb
