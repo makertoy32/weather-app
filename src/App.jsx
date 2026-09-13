@@ -6,6 +6,7 @@ function App() {
   const api_key = import.meta.env.VITE_WEATHER_API_KEY;
   
   const [text,setText]=useState("");  
+  
 
 
     async function getData() {
@@ -14,7 +15,7 @@ function App() {
       const resposne = await fetch(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${text}?key=${api_key}`);
       const data =  await resposne.json();
 
-      console.log(data);
+      return data;
       console.log(text);
     } catch (error) {
       alert("Error what u entered is not a place")
@@ -22,9 +23,6 @@ function App() {
 
     }
       
-      
-      
-
     }
 
     
@@ -37,7 +35,7 @@ function App() {
     <>
     <h1 className='text-4xl text-red-500'>Start</h1>
     <input value={text} onChange={(e)=>{setText(e.target.value)}} type="text" />
-
+    <span>{`u meant ${data.resolvedAddress}`}</span>
     <button onClick={getData}>Get Data</button>
     </>
   )
