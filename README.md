@@ -40,3 +40,9 @@ Add a screenshot of your application here.
 
 ```md
 ![Weather App Screenshot](./screenshot.png)
+
+- This project was created as a solution to the Weather App project on roadmap.sh.
+
+- Project requirements:
+
+- https://roadmap.sh/projects/weather-app
