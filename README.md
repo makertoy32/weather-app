@@ -1,48 +1,42 @@
 # 🌤️ Weather App
 
-A responsive weather application built with React that allows users to search for a location and view its weather forecast using the Visual Crossing Weather API.
+A responsive weather application built with React that allows users to search for a location and view its weather forecast.
 
-This project was created as part of the [roadmap.sh Weather App project](https://roadmap.sh/projects/weather-app).
+## ✨ Features
 
----
+- Search weather by location
+- View temperature, humidity, wind speed, and conditions
+- Multi-day weather forecast
+- Responsive design
+- Smooth animations
+- Invalid location handling
 
-## 🚀 Features
+## 🛠️ Built With
 
-- 🔍 Search weather by city or location
-- 🌡️ Display temperature
-- 💧 Display humidity
-- 💨 Display wind speed
-- 🌦️ Display weather conditions
-- 📝 Display weather description
-- 📅 Display daily weather forecast
-- ❌ Handle invalid locations and API errors
-- 📱 Responsive design for different screen sizes
-- ✨ Smooth UI animations
-- ⌨️ Press Enter to search
-- 🔄 Search for different locations without refreshing the page
+- React
+- JavaScript
+- Tailwind CSS
+- Motion
+- Visual Crossing Weather API
+- Vite
 
----
+## 🚀 Run Locally
 
-## 🛠️ Technologies Used
+Clone the repository and install dependencies:
 
-- **React** – Frontend library
-- **JavaScript** – Application logic
-- **Tailwind CSS** – Styling and responsive design
-- **Visual Crossing Weather API** – Weather data
-- **Motion for React** – UI animations
-- **Vite** – Development and build tool
+```bash
+npm install
+npm run dev
+```
 
----
+Create a `.env` file in the root directory:
 
-## 📸 Preview
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
 
-Add a screenshot of your application here.
+## 🔗 Project Challenge
 
-```md
-![Weather App Screenshot](./screenshot.png)
+This project was built as part of the **roadmap.sh Weather App** challenge.
 
-- This project was created as a solution to the Weather App project on roadmap.sh.
-
-- Project requirements:
-
-- https://roadmap.sh/projects/weather-app
+https://roadmap.sh/projects/weather-app
