@@ -166,7 +166,7 @@ function App() {
             {/* Table wrapper */}
             <div className="overflow-x-auto">
 
-              <table className="w-full min-w-[700px]">
+              <table className="w-full min-w-175">
 
                 <thead>
                   <tr className="bg-blue-600 text-white">
