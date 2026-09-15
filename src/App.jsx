@@ -4,7 +4,7 @@ import Lenis from "lenis";
 import "./App.css";
 
 function App() {
-  const api_key = import.meta.env.VITE_WEATHER_API_KEY;
+  const api_key = "7VRURK7JSVLQQ7ZCM35R8D473";
 
   const [text, setText] = useState("");
   const [weatherinfo, setWeatherinfo] = useState({});
